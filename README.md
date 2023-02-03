@@ -10,7 +10,7 @@ Clone the repo
 
 ```zsh
 git clone https://github.com/cgcardona/geoprize.git
-cd geolocation
+cd geoprize
 ```
 
 Install the dependencies
