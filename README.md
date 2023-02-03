@@ -1,5 +1,7 @@
 # Geolocation (GEO)
 
+<img alt="Avalanche Logo" width="300px" src="assets/powered-by-avalanche.png">
+
 Geolocation for ETH Denver Web3 game workshop
 
 ## Getting Started
