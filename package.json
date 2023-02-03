@@ -1,0 +1,19 @@
+{
+  "name": "geolocation",
+  "version": "0.1.0",
+  "description": "Geolocation for ETH Denver Web3 game workshop",
+  "main": "index.js",
+  "license": "MIT",
+	"author": "Gabriel Cardona",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "@nomiclabs/hardhat-etherscan": "^3.1.5",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.12.6",
+    "node-fetch": "2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "@openzeppelin/contracts": "^4.8.1"
+  }
+}
