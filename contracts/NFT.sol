@@ -4,14 +4,14 @@ pragma solidity ^0.8.1;
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
-contract NFT is ERC721 {
+contract GeoPrize is ERC721 {
   using Counters for Counters.Counter;
   Counters.Counter private currentTokenId;
 
   /// @dev Base token URI used as a prefix by tokenURI().
   string public baseTokenURI;
 
-  constructor() ERC721("Geolocation", "GEO") {
+  constructor() ERC721("GeoPrize", "GEO") {
     baseTokenURI = "";
   }
 
